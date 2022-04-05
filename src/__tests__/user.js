@@ -1,5 +1,5 @@
 import loadUser from '../loadUsers';
-import { httpGet } from '../http';
+import httpGet from '../http';
 // подключаем заглушку
 jest.mock('../http.js'); // этот файл http.js должен стать моком
 
